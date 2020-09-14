@@ -1,9 +1,11 @@
-import React from 'react';
-import Home from './pages/Home';
+import React from "react";
+import Home from "./pages/Home";
+import GlobalStyles from "./components/global/GlobalStyles";
 
 function App() {
   return (
     <>
+      <GlobalStyles />
       <Home />
     </>
   );
