@@ -71,6 +71,11 @@ const BannerWrapper = styled(Banner)`
             width: 75%;
         }
     `}
+    ${media.large`
+        max-width: 1170px;
+        padding: ${setRem(55)} 0};
+
+    `}
 
     h1{
        

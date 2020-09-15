@@ -23,3 +23,7 @@ export const PrimaryButton = styled.button`
         color: ${setColor.primaryColor};
     }
 `
+
+export const SmallButton = styled(PrimaryButton)`
+    padding: ${setRem(8)} ${setRem(12)};
+`

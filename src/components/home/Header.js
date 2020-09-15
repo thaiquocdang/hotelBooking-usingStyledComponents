@@ -10,7 +10,7 @@ function Header() {
       <Banner greeting="Welcome to" title="Sheraton Danang Hotel" 
       text="Perched along tranquil Non Nuoc Beach, Sheraton Grand Danang Resort offers a truly transformative experience. Our hotel is just a short drive from Danang International Airport, near legendary attractions including Hoi An Old Town and the Marble Mountains. Whatever your reason for joining us at Sheraton Grand Danang Resort, we look forward to exceeding your expectations. "
       > 
-        <PrimaryButton t="1rem" as="a" href="https://www.google.com.au" target="_blank">view details</PrimaryButton>
+        <PrimaryButton t="1rem" as="a" href="https://www.marriott.com.au/hotels/travel/dadsi-sheraton-grand-danang-resort/" target="_blank">view details</PrimaryButton>
       </Banner>
     </Hero>
   );

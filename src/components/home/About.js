@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Section } from "../global/Section";
 import Title from "../global/Title";
-import pool from "../../images/pool.jpeg";
+import infinityPool from "../../images/infinityPool.jpg";
 import { PrimaryButton } from "../global/Button";
 import { setRem, setFlex, setBorder, setColor, setFont, setLetterSpacing, media} from '../../styles'
 
@@ -12,7 +12,7 @@ function About() {
     <Section background={setColor.mainWhite}>
       <AboutCenter>
         <div className="about-img">
-          <img src={pool} alt="about us" />
+          <img src={infinityPool} alt="about us" />
         </div>
         <div className="about-info">
           <Title title="About Us" center />
@@ -52,14 +52,17 @@ const AboutCenter = styled.div`
     width: 90vw;
     margin: 0 auto;
 
-    ${ media.desktop`
+    ${ media.large`
         width: 100vw;
         max-width: 1170px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: ${setRem(32)};
+        .about-img, .about-info {
+        padding: ${setRem(0)};
+    }
 
-        .about-img {
+        .about-img, .about-info {
             align-self: center;
 
             img{
