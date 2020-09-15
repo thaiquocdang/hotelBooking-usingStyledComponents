@@ -7,7 +7,7 @@ const Globals = createGlobalStyle`
     *{
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
+        // box-sizing: border-box;
     }
     body {
         font-size: 100%;
@@ -47,8 +47,8 @@ const Globals = createGlobalStyle`
         font-weight: bold;
     }
     p{
-        line-height: 1.5;
-        margin: 0 0 1.5;
+        line-height: 1.5rem;
+        margin: 0 0 1.5rem 0;
     }
 `;
 

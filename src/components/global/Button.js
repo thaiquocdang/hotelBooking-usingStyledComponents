@@ -12,7 +12,7 @@ export const PrimaryButton = styled.button`
     ${setFont.main};
     padding: ${setRem(15)} ${setRem(25)};
     cursor: pointer;
-    ${setBorder({width: "5px", style:"solid", color: setColor.primaryColor })};
+    ${setBorder({width: "3px", style:"solid", color: setColor.primaryColor })};
     text-decoration:none;
     outline: none;
     ${setTransition({ time: "0.8s"})};
@@ -21,8 +21,5 @@ export const PrimaryButton = styled.button`
         /* background: ${setColor.mainWhite}; */
         background:transparent;
         color: ${setColor.primaryColor};
-
     }
-
-    
 `
